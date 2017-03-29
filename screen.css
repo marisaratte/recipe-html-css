@@ -1,0 +1,68 @@
+ h1 {
+  color:#c30
+  }
+ h3 {
+  color:#e23d17
+  }
+  h4 {
+  color:#993
+  }
+.ingredients {
+  color:#993
+  }
+  .directions {
+  color:#993
+  }
+  body{
+    width: 70%;
+    max-width: 70em;
+    min-width: 20em;
+    margin: auto;
+    color:#993;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  }
+  /* Hides title "Menu" but still allows navigation to be
+  identified by menu title */
+  .visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+  }
+
+  a {
+    color:#777;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  .bottom {
+    list-style: none;
+    padding-left: 0;
+  }
+
+@media (min-width: 50em){
+header, nav {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+
+.bottom .col {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+}
